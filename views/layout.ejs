@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Jumbotron Template · Bootstrap</title>
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+</head>
+<body>
+    <% include ./partials/navbar.ejs %>
+
+<main role="main">
+
+    <div class="container">
+
+        <%- body -%>
+
+    </div> <!-- /container -->
+
+</main>
+
+    <% include ./partials/footer.ejs %>
+
+</body>
+</html>
